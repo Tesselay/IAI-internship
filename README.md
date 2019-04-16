@@ -9,7 +9,7 @@ DTWProject_cpp_ue
 
 Diverse
 - DesicionTree.py: Includes Decision Tree Classifier Example based on the Iris Flower Dataset as well as an own written DT model. (Only own model works, example needs to be revised)
-- GridSearch.py: A file that does GridSearch for sklearn DT, Support Vector Classifier and XGBoost and plots a Heatmap based on it. Functions written to make GridSearch as customizable and efficient as possible. 
+- GridSearch.py: A file that does GridSearch for sklearn's DT Classifier, Support Vector Classifier and XGBoost and plots a Heatmap based on it. Functions written to make GridSearch as customizable and efficient as possible. 
 - Testing.py: Includes sklearn's DT Classifier and KNN for the Iris Flower Dataset, as well as two plots for visualization. 
 - XGBoost.py: Basic testing of XGBoost with the Iris Flower Dataset.
 
