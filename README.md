@@ -15,3 +15,11 @@ Diverse
 
 Winequality_regression
 - Basic testing with the Winequality regression dataset (included), uses sklearn Linear Regression Model and has functions for ols-cost and gradient_descent that have yet to be completed. Calculates mean squared error.
+
+Packages used:
+- pandas
+- scikit-learn
+- matplotlib
+- numpy
+- xgboost
+- fastdtw
