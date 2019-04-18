@@ -141,14 +141,14 @@ def comparator(mvmnt_comparators, test_df, mvmnt_names, test_name, threshold=250
 """For testing let threshold variable stay at 0, otherwise change to desired value (e.g. 2500)"""
 threshold = 0
 
-fall_df = pd.read_csv("fall_movement.csv")
-jump_df = pd.read_csv("jump_movement.csv")
-run_df = pd.read_csv("run_movement.csv")
-slope_down_df = pd.read_csv("slope_run_movement_down.csv")          # running movement
-slope_up_df = pd.read_csv("slope_run_movement_up.csv")
-test_fall_df = pd.read_csv("test_fall_movement.csv")
-test_jump_df = pd.read_csv("test_jump_movement.csv")
-test_run_df = pd.read_csv("test_run_movement.csv")
+fall_df = pd.read_csv("Movements/fall_movement.csv")
+jump_df = pd.read_csv("Movements/jump_movement.csv")
+run_df = pd.read_csv("Movements/run_movement.csv")
+slope_down_df = pd.read_csv("Movements/slope_run_movement_down.csv")          # running movement
+slope_up_df = pd.read_csv("Movements/slope_run_movement_up.csv")
+test_fall_df = pd.read_csv("Movements/test_fall_movement.csv")
+test_jump_df = pd.read_csv("Movements/test_jump_movement.csv")
+test_run_df = pd.read_csv("Movements/test_run_movement.csv")
 
 """Commented part is for plotting, num can be changed to the desired movement-unit of the df"""
 # mvmnt_units = mvmnt_splitter(fall_df)
