@@ -5,7 +5,7 @@ DTWMovement
 - Includes python file that can classify movements into run, fall or jump. Includes a few example datasets recorded in Unreal Engine (see https://github.com/Tesselay/IAI-internship/tree/master/DTWProject_cpp_ue/Source). Has function for plotting and individualizable testing parameters.
 
 DTWProject_cpp_ue
-- Unreal Engine C++ Source files that were used to record movements. Barebone example arena with added features of recording movements on demand and writing xyz location, velocity and acceleration, as well as tick, time per tick and time total to an csv-file. 
+- Unreal Engine C++ Source files that were used to record movements. Barebone example arena with added features of recording movements on demand and writing xyz location, velocity and acceleration, as well as tick, time per tick and time total to a csv-file. 
 
 Diverse
 - DesicionTree.py: Includes Decision Tree Classifier Example based on the Iris Flower Dataset as well as an own written DT model. (Only own model works, example needs to be revised)
