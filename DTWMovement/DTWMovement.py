@@ -168,14 +168,14 @@ test_run_df = pd.read_csv("Movements/test_run_movement.csv")
 # xyz_plotter(mvmnt_units, 't_total', 'acc', num)
 
 """Drops the location columns, since they are not needed"""
-# fall_df = fall_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
-# jump_df = jump_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
-# run_df = run_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
-# test_fall_df = test_fall_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
-# test_jump_df = test_jump_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
-# test_run_df = test_run_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
-# slope_down_df = slope_down_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
-# slope_up_df = slope_up_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
+fall_df = fall_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
+jump_df = jump_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
+run_df = run_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
+test_fall_df = test_fall_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
+test_jump_df = test_jump_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
+test_run_df = test_run_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
+slope_down_df = slope_down_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
+slope_up_df = slope_up_df.drop(columns=['loc_x', 'loc_y', 'loc_z'])
 
 """Beginning of movement comparisons to different reference movements"""
 print("Comparison to fall movement:")
