@@ -107,32 +107,32 @@ print("Accuracy: {}".format(accuracy))
 
 
 # TODO fix decision tree classifier example
-x = iris.data
-y = iris.target
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.4, random_state=72)
-plot_step = 0.05
-for pairidx, pair in enumerate([[0, 1], [0, 2], [0, 3],
-                                [1, 2], [1, 3], [2, 3]]):
-    X = x_train[:, pair]
-    Y = y_train
-
-    clf = tree.DecisionTreeClassifier().fit(X, Y)
-
-    plt.subplot(2, 3, pairidx + 1)
-
-    x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
-    y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
-
-    xx, yy = np.meshgrid(np.arange(x_min, x_max, plot_step),
-                         np.arange(y_min, y_max, plot_step))
-    plt.tight_layout(h_pad=0.5, w_pad=0.5, pad=2.5)
-
-    Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
-    Z = Z.reshape(xx.shape)
-    cs = plt.contourf(xx, yy, Z, cmap='RdYlBu')
-
-    plt.xlabel(iris.feature_names[pair[0]])
-    plt.ylabel(iris.feature_names[pair[1]])
+# x = iris.data
+# y = iris.target
+# x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.4, random_state=72)
+# plot_step = 0.05
+# for pairidx, pair in enumerate([[0, 1], [0, 2], [0, 3],
+#                                [1, 2], [1, 3], [2, 3]]):
+#     X = x_train[:, pair]
+#     Y = y_train
+#
+#     clf = tree.DecisionTreeClassifier().fit(X, Y)
+#
+#     plt.subplot(2, 3, pairidx + 1)
+#  
+#     x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
+#     y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
+# 
+#     xx, yy = np.meshgrid(np.arange(x_min, x_max, plot_step),
+#                          np.arange(y_min, y_max, plot_step))
+#     plt.tight_layout(h_pad=0.5, w_pad=0.5, pad=2.5)
+#
+#     Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
+#     Z = Z.reshape(xx.shape)
+#     cs = plt.contourf(xx, yy, Z, cmap='RdYlBu')
+#
+#     plt.xlabel(iris.feature_names[pair[0]])
+#     plt.ylabel(iris.feature_names[pair[1]])
 
     for i, color in zip(range(3), "ryb"):
 
