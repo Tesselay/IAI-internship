@@ -1,5 +1,5 @@
 # IAI-internship
-Applications/Files created in my 2 week internship at the Institute for Artificial Intelligence in Bremen (http://ai.uni-bremen.de/).
+Applications/Files created in my 2 week internship at the Institute for Artificial Intelligence in Bremen (http://ai.uni-bremen.de/). Files will stay as they are, when I finished the Internship, but I will keep working on some of these projects and create new repisotories for them.
 
 DTWMovement
 - Includes python file that can classify movements into run, fall or jump. Includes a few example datasets recorded in Unreal Engine (see https://github.com/Tesselay/IAI-internship/tree/master/DTWProject_cpp_ue/Source). Has function for plotting and individualizable testing parameters.
